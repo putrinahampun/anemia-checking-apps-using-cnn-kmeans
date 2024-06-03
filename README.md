@@ -53,7 +53,7 @@ In this task, some experiments and modifications were conducted on different ver
 
 ### Testing
 Demo for testing some images:
-Dataset (10 images) saved here: [dataset-10-testing](https://drive.google.com/file/d/1jqGAVXK1gayFifoxC4wGGYPO9XWY4zvO/view?usp=drive_link)
+Dataset (10 images) saved here: [dataset-testing](https://drive.google.com/file/d/1jqGAVXK1gayFifoxC4wGGYPO9XWY4zvO/view?usp=drive_link)
 
 ### Deployment
 💻 IDE: Android Studio Giraffe.
