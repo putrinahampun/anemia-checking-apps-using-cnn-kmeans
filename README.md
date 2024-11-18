@@ -1,16 +1,37 @@
-# Identification Of Anemia Through Conjunctival Eye Image Using K-Means Clustering And Convolutional Neural Network
+# Technical Document: Anemia Checking App. 
 
 ## Project Description
-🖼️ **Abstract :**
-Anemia is a serious health problem that, if not promptly and accurately addressed, can lead to death. Anemia examinations can generally be performed invasively and noninvasively. Invasive examinations require time and expensive costs. The technical process of blood sampling can also cause discomfort, leading some people to hesitate in undergoing examinations. Meanwhile, non invasive examinations only require observation of the paleness of the color on the conjunctival eye, which is considered far more effective than invasive examinations. However, human observation can be subjective, necessitating a system for identifying anemia using the K-Means Clustering and Convolutional Neural Network (CNN) methods. The data used consisted 400 images for the training process and 40 images for the testing process. The research results show the system’s ability to recognize conjunctival eye images of individuals with 
-anemia or non-anemia with an accuracy rate of 95%. 
+### 🖼️ Background 
+Anemia is a serious health problems in a world. There are two ways for checking it, namely invasively and non-invasively examinations. The non-invasively examinations is more efficient because the other requires more time and expensive cost. Non-invasively examination just need to observe the color of eye conjunctiva. But people observation can be subjective, so that's why we need an app that could work constantly.
 
-🎯 **Target:** 
-
+### 🎯Target
 To identify anemia in images of the conjunctiva of the eye, use K-Means Clustering and Convolutional Neural Network methods so you can determine whether a person suffers from anemia or not and obtain recommendations appropriate initial treatment and prevention.
 
+## Table of Contents
+- [Project Description](#project-description)
+   - [Background](#background)
+   - [Target](#target)
+- [Setup](#setup)
+   - [Tools](#tools)
+   - [Dependencies](#dependencies)
+   - [Environment](#environment)
+- [Dataset](#dataset)
+- [Model Performance](#model-performance)
+   - [Metrics](#metrics)
+   - [Training / Validation Curve](#training)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Supporting Documents](#supporting-documents)
+- [Additional Comments](#additional-comments)
+- [Reference](#reference)
+
 ## Setup
-### Prerequisite Packages (Dependencies)
+### Tools
+- Android Studio Giraffe
+- Google Colab
+- Figma
+- 
+### Dependencies
 - python3 == 3.10.12
 - tensorflow == 2.15.0
 - openCv == 4.8.0
@@ -34,8 +55,7 @@ Link: [Access our dataset through this Link](https://drive.google.com/file/d/1sd
 
 ![eye-conjunctiva-image](https://github.com/putrinahampun/FinalProject-S1-Information-Technology-USU/assets/72849694/1e180e97-c720-4d4d-89fe-e17302438dd2)
 
-## Results
-### Model Performance
+## Model Performance
 In this task, some experiments and modifications were conducted on different versions of the ResNet architecture. The best results were achieved using the ResNet-18 architecture with additional Linear, ReLU, and Dropout layers. The optimal model was obtained by setting the parameters to **batch_size = 64, learning_rate = 0.0001, and epoch = 11**, resulting in an accuracy of **95%**.
 
 #### Metrics
@@ -51,11 +71,11 @@ In this task, some experiments and modifications were conducted on different ver
 #### Training/Validation Curve
 ![Grafik Akurasi](https://github.com/putrinahampun/FinalProject-S1-Information-Technology-USU/assets/72849694/4422f520-3bf9-4a65-85ea-5943c70baab6)
 
-### Testing
+## Testing
 Demo for testing some images:
 Dataset (10 images) saved here: [dataset-testing](https://drive.google.com/file/d/1jqGAVXK1gayFifoxC4wGGYPO9XWY4zvO/view?usp=drive_link)
 
-### Deployment
+## Deployment
 💻 IDE: Android Studio Giraffe.
 
 📔 Procedures:
@@ -69,6 +89,7 @@ Dataset (10 images) saved here: [dataset-testing](https://drive.google.com/file/
 The project will be explained through this video:
 - Link: [Access the video through this link](https://drive.google.com/file/d/1hdQarPaGUalMKRDCy-Mwc5Q_1b7sBHik/view?usp=drive_link)
 
+## Supporting Documents 
 ## Additional Comments
 📌 **Conclusions** 
 - Use of the K-Means Clustering and CNN methods to identify anemia 
@@ -92,3 +113,5 @@ Good.
 - Testing different segmentation and classification methods 
 with the method in this research. 
 - Build a real-time detection system using the object detection method
+
+## References 
