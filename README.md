@@ -1,13 +1,14 @@
 # Technical Document: Anemia Checking App. 
 
-## Project Description
-### 🖼️ Background 
+## 🖼️ Project Description
+### Background 
 Anemia is a serious health problems in a world. There are two ways for checking it, namely invasively and non-invasively examinations. The non-invasively examinations is more efficient because the other requires more time and expensive cost. Non-invasively examination just need to observe the color of eye conjunctiva. But people observation can be subjective, so that's why we need an app that could work constantly.
 
-### 🎯Target
+### Target
 To identify anemia in images of the conjunctiva of the eye, use K-Means Clustering and Convolutional Neural Network methods so you can determine whether a person suffers from anemia or not and obtain recommendations appropriate initial treatment and prevention.
 
-## Table of Contents
+## 📋 Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Project Description](#project-description)
    - [Background](#background)
    - [Target](#target)
@@ -25,7 +26,7 @@ To identify anemia in images of the conjunctiva of the eye, use K-Means Clusteri
 - [Additional Comments](#additional-comments)
 - [Reference](#reference)
 
-## Setup
+## ⚙️ Setup
 ### Tools
 - Android Studio Giraffe
 - Google Colab
@@ -47,7 +48,7 @@ To identify anemia in images of the conjunctiva of the eye, use K-Means Clusteri
 | RAM | 12.68 GB, used: 1.54 GB |
 | OS  | microsoft windows v10.0.2 |
 
-## Dataset
+## 🪣 Dataset
 The dataset used consists of images of 'Eye Conjunctiva' collected from some open data sources in IEEE dataport and collected manually using a smartphone camera 16 MP.
 The collected dataset comprises 440 images, with each category containing 220 images (anemia and non-anemia).
 
@@ -55,10 +56,10 @@ Link: [Access our dataset through this Link](https://drive.google.com/file/d/1sd
 
 ![eye-conjunctiva-image](https://github.com/putrinahampun/FinalProject-S1-Information-Technology-USU/assets/72849694/1e180e97-c720-4d4d-89fe-e17302438dd2)
 
-## Model Performance
+## 🛠️ Model Performance
 In this task, some experiments and modifications were conducted on different versions of the ResNet architecture. The best results were achieved using the ResNet-18 architecture with additional Linear, ReLU, and Dropout layers. The optimal model was obtained by setting the parameters to **batch_size = 64, learning_rate = 0.0001, and epoch = 11**, resulting in an accuracy of **95%**.
 
-#### Metrics
+### Metrics
 
 | No | epoch | learning_rate | batch_size | optimizer | val_loss | val_precision | val_recall |
 | --- | --- | --- | --- | --- | --- | --- | --- | 
@@ -68,15 +69,15 @@ In this task, some experiments and modifications were conducted on different ver
 | 4 | 9 | 0.0001 | 64 | Adam | 0.1346 | 84.94% | 81.25% |  
 | **5** | **11** | **0.0001** | **64** | **Adam** | **0.1181** | **93.76%** | **93.75%** |
 
-#### Training/Validation Curve
+### Training/Validation Curve
 ![Grafik Akurasi](https://github.com/putrinahampun/FinalProject-S1-Information-Technology-USU/assets/72849694/4422f520-3bf9-4a65-85ea-5943c70baab6)
 
-## Testing
+## 🧪 Testing
 Demo for testing some images:
 Dataset (10 images) saved here: [dataset-testing](https://drive.google.com/file/d/1jqGAVXK1gayFifoxC4wGGYPO9XWY4zvO/view?usp=drive_link)
 
-## Deployment
-💻 IDE: Android Studio Giraffe.
+## 💻 Deployment
+IDE: Android Studio Giraffe.
 
 📔 Procedures:
 - Press the start button
@@ -89,9 +90,11 @@ Dataset (10 images) saved here: [dataset-testing](https://drive.google.com/file/
 The project will be explained through this video:
 - Link: [Access the video through this link](https://drive.google.com/file/d/1hdQarPaGUalMKRDCy-Mwc5Q_1b7sBHik/view?usp=drive_link)
 
-## Supporting Documents 
+## 📑 Supporting Documents 
+bla bla 
+
 ## Additional Comments
-📌 **Conclusions** 
+**Conclusions** 
 - Use of the K-Means Clustering and CNN methods to identify anemia 
 through the image of the conjunctiva the eye can work well with accuracy 
 reaches 95%. 
@@ -105,7 +108,7 @@ color in the image of the conjunctiva of the eye.
 image is the lighting used, image quality, and distance 
 shooting.
 
-📑**Future Work** 
+**Future Work** 
 - Use datasets with good quality and large quantities.
 - Pay attention to several factors such as distance and light used 
 taking images directly, to obtain more detailed images 
@@ -114,4 +117,5 @@ Good.
 with the method in this research. 
 - Build a real-time detection system using the object detection method
 
-## References 
+## 🗞️ References 
+bla bla
